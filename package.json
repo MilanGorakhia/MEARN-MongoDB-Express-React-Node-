@@ -1,0 +1,60 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.19.5",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "axios": "^0.21.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "bootstrap": "^4.5.3",
+    "daterangepicker": "^3.1.0",
+    "formik": "^2.2.5",
+    "jquery": "^3.5.1",
+    "mobx": "^6.0.4",
+    "mobx-react": "^7.0.5",
+    "popper.js": "^1.14.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0",
+    "typescript": "^4.0.5",
+    "web-vitals": "^0.2.4",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/daterangepicker": "^3.1.3",
+    "@types/jquery": "^3.5.4",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/yup": "^0.29.9"
+  }
+}
